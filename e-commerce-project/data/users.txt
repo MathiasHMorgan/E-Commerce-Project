@@ -1,0 +1,1 @@
+{"user_id":"u_0000000000", "user_name":"my_admin", "user_password":"^^PcaOFdNnmeyim6nbk17h2ML3Za4$$", "user_register_time":"00-00-0000_00:00:00", "user_role":"admin"}
