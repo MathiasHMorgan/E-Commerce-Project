@@ -62,4 +62,17 @@ This project follows a decoupled design with four main parts:
 3. **Operation Classes**: Handle data read/write operations and simulate database activities.
 4. **Model Classes**: Define the data structure templates.
 
-The **I/O Interface** class is the only class containing `input()` and `print()` functi
+The **I/O Interface** class is the only class containing `input()` and `print()` functions, ensuring a clear separation of responsibilities.
+
+Here's an overview of the architecture:
+
+![System Architecture](link-to-your-image.png)
+
+---
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+
