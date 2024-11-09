@@ -74,5 +74,5 @@ Here's an overview of the architecture:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/MathiasHMorgan/E-Commerce-Project.git
 
