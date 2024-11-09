@@ -1,10 +1,62 @@
-Project details
+# E-commerce Command Line System
 
-This project requires you to create an e-commerce system allowing customers to log in and perform shopping operations like purchasing products, viewing order history and showing user consumption reports. 
-Admin users need to be created to manage the whole system, who can create/delete/view customers, products and all the orders. Except for the management part, admin users can view the statistical figures about this system. 
-Since the whole system is executed in the command line system, designing a well-formatted interface is better and always showing proper messages to guide users to use your system. In this project, we use open-source data from data.world, which contains 9 files of products. 
-All the product's data should be retrieved from these files.
+Welcome to the **E-commerce Command Line System**! This project enables users to perform various shopping operations and allows administrators to manage users, products, and orders directly from the command line.
 
-In this project, we will decouple the relationship between various classes. As you can see from the following image, we have four main parts, and when using the system, end users only need to interact with the IOInterface class. 
-The Main Control class handles the main business logic. The operation classes use the model classes as templates to manipulate the data reading/writing. With this design pattern, the input() and print() functions only exist in the I/O interface class. No other classes have these functions. 
-The file reading/writing operations happen in the operation classes, which simulate the database activities.
+---
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Data Source](#data-source)
+- [System Architecture](#system-architecture)
+- [How to Run](#how-to-run)
+- [Usage Guide](#usage-guide)
+- [Contributing](#contributing)
+
+---
+
+## Project Overview
+
+This project is a command-line-based e-commerce system where customers can:
+- Log in and browse products.
+- Purchase items and view order history.
+- Access consumption reports.
+
+**Admins** have additional functionality to:
+- Create, delete, and view customers and products.
+- View system-wide statistical data.
+
+The system is designed with a clear, user-friendly interface and displays helpful messages to guide users through each operation.
+
+---
+
+## Features
+
+### Customer Operations
+- **Product Browsing**: View products from various categories.
+- **Order Management**: Place orders and view past order history.
+- **Reports**: Generate personal consumption reports.
+
+### Admin Operations
+- **User Management**: Create, delete, and view user profiles.
+- **Product Management**: Add, remove, and manage product details.
+- **Statistics**: Access system-wide analytics and statistics.
+
+---
+
+## Data Source
+
+The project utilizes **open-source data from data.world**, consisting of **9 files** that contain product information. These files serve as the primary data source for product listings.
+
+---
+
+## System Architecture
+
+This project follows a decoupled design with four main parts:
+
+1. **I/O Interface**: This is the user-facing component that handles all inputs and outputs.
+2. **Main Control Class**: Manages business logic.
+3. **Operation Classes**: Handle data read/write operations and simulate database activities.
+4. **Model Classes**: Define the data structure templates.
+
+The **I/O Interface** class is the only class containing `input()` and `print()` functi
