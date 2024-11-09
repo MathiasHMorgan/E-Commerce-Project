@@ -1,7 +1,7 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 
 
-# E-commerce Command Line System
+# E-commerce Project
 
 Welcome to the **E-commerce Command Line System**! This project enables users to perform various shopping operations and allows administrators to manage users, products, and orders directly from the command line.
 
@@ -63,10 +63,6 @@ This project follows a decoupled design with four main parts:
 4. **Model Classes**: Define the data structure templates.
 
 The **I/O Interface** class is the only class containing `input()` and `print()` functions, ensuring a clear separation of responsibilities.
-
-Here's an overview of the architecture:
-
-![System Architecture](link-to-your-image.png)
 
 ---
 
