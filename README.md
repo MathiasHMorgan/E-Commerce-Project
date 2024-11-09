@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+
+
 # E-commerce Command Line System
 
 Welcome to the **E-commerce Command Line System**! This project enables users to perform various shopping operations and allows administrators to manage users, products, and orders directly from the command line.
