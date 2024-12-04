@@ -7,68 +7,56 @@ Welcome to the **E-commerce Command Line System**! This project enables users to
 
 ---
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Data Source](#data-source)
-- [System Architecture](#system-architecture)
-- [How to Run](#how-to-run)
-- [Usage Guide](#usage-guide)
-- [Contributing](#contributing)
+# 🐍 Python E-commerce Project
+
+## 📖 Project Overview  
+A command-line-based e-commerce system where:  
+- **Customers can**:  
+  - 🛒 Log in, browse products, purchase items, and view order history.  
+  - 📊 Generate personal consumption reports.  
+- **Admins can**:  
+  - 👤 Create, delete, and manage customer profiles.  
+  - 🛠️ Add, remove, and update product details.  
+  - 📈 Access system-wide analytics and statistical data.  
+
+The system offers a **user-friendly CLI interface** with clear prompts and error messages for seamless operations.
 
 ---
 
-## Project Overview
+## ⭐ Features  
 
-This project is a command-line-based e-commerce system where customers can:
-- Log in and browse products.
-- Purchase items and view order history.
-- Access consumption reports.
+### 🛍️ Customer Operations  
+- Product browsing by category.  
+- Order placement and detailed order history.  
+- Access to personalized consumption reports.  
 
-**Admins** have additional functionality to:
-- Create, delete, and view customers and products.
-- View system-wide statistical data.
-
-The system is designed with a clear, user-friendly interface and displays helpful messages to guide users through each operation.
-
----
-
-## Features
-
-### Customer Operations
-- **Product Browsing**: View products from various categories.
-- **Order Management**: Place orders and view past order history.
-- **Reports**: Generate personal consumption reports.
-
-### Admin Operations
-- **User Management**: Create, delete, and view user profiles.
-- **Product Management**: Add, remove, and manage product details.
-- **Statistics**: Access system-wide analytics and statistics.
+### 🔑 Admin Operations  
+- User management: create, delete, and view user profiles.  
+- Product management: add, update, and remove products.  
+- System analytics: generate and view statistical insights.  
 
 ---
 
-## Data Source
-
-The project utilizes **open-source data from data.world**, consisting of **9 files** that contain product information. These files serve as the primary data source for product listings.
-
----
-
-## System Architecture
-
-This project follows a decoupled design with four main parts:
-
-1. **I/O Interface**: This is the user-facing component that handles all inputs and outputs.
-2. **Main Control Class**: Manages business logic.
-3. **Operation Classes**: Handle data read/write operations and simulate database activities.
-4. **Model Classes**: Define the data structure templates.
-
-The **I/O Interface** class is the only class containing `input()` and `print()` functions, ensuring a clear separation of responsibilities.
+## 📂 Data Source  
+- Utilized open-source datasets from **data.world**, consisting of 9 files with detailed product information.  
+- Data serves as the backbone for product listings and analytical functions.  
 
 ---
 
-## How to Run
+## ⚙️ System Architecture  
+The project follows a **modular design** with four main components:  
+- **I/O Interface**: Handles all user interactions (inputs and outputs).  
+- **Main Control Class**: Manages core business logic.  
+- **Operation Classes**: Simulate database operations and manage data storage.  
+- **Model Classes**: Define templates for users, products, and orders.  
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MathiasHMorgan/E-Commerce-Project
+📌 **Key Design Principle**: Only the I/O interface contains `input()` and `print()` functions, ensuring a clear separation of responsibilities.  
+
+---
+
+## 🚀 How to Run  
+1️⃣ Clone the repository:  
+```bash
+git clone https://github.com/MathiasHMorgan/E-Commerce-Project
+
 
